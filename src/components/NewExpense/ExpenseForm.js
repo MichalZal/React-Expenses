@@ -4,9 +4,9 @@ import "./ExpenseForm.css";
 
 const ExpenseForm = (props) => {
 	// tworzymy zmienne.
-	const [enteredTitle, setEnteredTitle] = useState("");
-	const [enteredAmount, setEnteredAmount] = useState("");
-	const [enteredDate, setEnteredDate] = useState("");
+	const [enteredTitle, setEnteredTitle] = useState("title");
+	const [enteredAmount, setEnteredAmount] = useState("0");
+	const [enteredDate, setEnteredDate] = useState("2020-0-0");
 
 	// przypisujemy zmiennym wartość value z inptów
 	const titleChangeHandler = (e) => {
