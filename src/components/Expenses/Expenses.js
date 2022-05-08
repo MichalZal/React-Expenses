@@ -6,7 +6,8 @@ import Card from "../UI/Card"
 import ExpensesFilter from './ExpensesFilter' 
 
 const Expenses = (props) => {
-    const [year, updateYear] = useState('2020')
+    	const [year, updateYear] = useState('2020')
+	
 	const filterChangeHandler = (selectedYear) => {
 		updateYear(selectedYear)
 	}
