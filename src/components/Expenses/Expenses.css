@@ -5,3 +5,10 @@
     width: 50rem;
     max-width: 95%;
 }
+
+.Not-found {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin: 2rem 1rem 1rem 1rem;
+}

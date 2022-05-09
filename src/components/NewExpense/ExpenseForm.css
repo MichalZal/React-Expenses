@@ -19,8 +19,17 @@
     border: 1px solid #ccc;
     width: 20rem;
     max-width: 100%;
+    transition: .2s all linear;
   }
   
+  .new-expense__control input:hover,
+  .new-expense__control input:focus {
+    border: 1px solid #510674;
+    background-color: #efefef;
+    outline: none;
+
+  }
+
   .new-expense__actions {
     text-align: right;
   }
