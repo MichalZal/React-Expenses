@@ -27,7 +27,7 @@ const ExpenseForm = (props) => {
 		// przy submicie dodajemy  te wartosci do obiektu:
 		const expenseData = {
 			title: enteredTitle,
-			amount: enteredAmount,
+			amount: +enteredAmount,
 			date: new Date(enteredDate),
 		};
 

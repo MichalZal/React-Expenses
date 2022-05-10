@@ -4,7 +4,8 @@
     align-items: center;
     padding: 0.5rem;
     margin: 1rem .3rem;
-    background-color: #4b4b4b;
+    background-color:rgba(70,25,70, .6);
+    border: 1px solid black;
 }
 
 .expense-item__description {
@@ -28,11 +29,12 @@
 .expense-item__price {
     font-size: 1rem;
     font-weight: bold;
-    color: white;
-    background-color: #34005a;
+    color: black;
     border: 1px solid white;
-    padding: 0.5rem;
-    border-radius: 12px;
+    background-color: white;
+    padding: .5rem;
+    color: rgba(70,25,70, 1);
+    border-radius: 8px;
 }
 
 @media (min-width: 580px) {
@@ -48,6 +50,7 @@
     }
 
     .expense-item__price {
+        margin-right: 1.5rem;
         font-size: 1.25rem;
         padding: 0.5rem 1.5rem;
     }

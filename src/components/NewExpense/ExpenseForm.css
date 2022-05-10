@@ -16,7 +16,8 @@
     font: inherit;
     padding: 0.5rem;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    background-color: white;
+    border: 1px solid rgba(10,10,10, 0.4);
     width: 20rem;
     max-width: 100%;
     transition: .2s all linear;
@@ -24,7 +25,7 @@
   
   .new-expense__control input:hover,
   .new-expense__control input:focus {
-    border: 1px solid #510674;
+    border: 1px solid rgba(10,10,10, 1);
     background-color: #efefef;
     outline: none;
 
