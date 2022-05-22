@@ -40,6 +40,7 @@ const DUMMY_EXPENSES = [
 const App = () => {
 	const [expenses, setExpenses] = useState(DUMMY_EXPENSES)
 
+	
 	// ta funckja będzie podana do NewExpense
 	const addExpenseHanlder = expense => {
 		console.log('in app js ', expense);
