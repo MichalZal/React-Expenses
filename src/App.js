@@ -40,7 +40,6 @@ const DUMMY_EXPENSES = [
 const async App = () => {
 	const [expenses, setExpenses] = useState(DUMMY_EXPENSES)
 
-	
 	// ta funkcja będzie podana do NewExpense
 	const addExpenseHanlder = expense => {
 		console.log('in app js ', expense);
