@@ -37,7 +37,7 @@ const DUMMY_EXPENSES = [
 ];
 
 
-const App = () => {
+const async App = () => {
 	const [expenses, setExpenses] = useState(DUMMY_EXPENSES)
 
 	
